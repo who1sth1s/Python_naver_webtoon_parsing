@@ -24,7 +24,7 @@ def gethtml(url):
 
 def main(argv):
 	if len(argv) != 4:
-		print "Usage : fuckweb.py [url] [no] [name]"
+		print "Usage : webtoon.py [url] [no] [name]"
 		return 1
 	url = argv[1]
 	no = argv[2]

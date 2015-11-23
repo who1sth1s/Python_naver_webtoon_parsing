@@ -4,7 +4,7 @@ import re
 import urllib
 import os
 import time 
-cookie = "NID_AUT=0lN0VjMOuJ4t9h7kiDy7Bq1L2cslCD8UYutM6Za8qkhiwVHOH4lSsVp59MCQ857J; NID_SES=AAABV+pX1z5o/uPMdH0tcyJa5nK2ihf074MSNncW1lm+79Tx4TYiEd1PwK1/ykmGEx3uuCS6bcQePl3DaycBQPYqHUmGytEO8owXmRrbsVB6wfNxcO75oMKkJgSj0cRK2cNARqiv8nzX8hTtLjVCCaKj38mOOaiApEYg2Qmn5cgVOXGJWM1A3IKjQN3rbDimVQxwUEhoZj2ULDnBfKEYn1onoF2CqD0D0qMBFYx4+6LvTNZZ4pcPCKsnxxvzn32Je2SJu55ZNRWChyIUO3bpbk+Zr0Ibq82jUgERJTdziEcWSXGvDCFhscXEJdyqdPHHRYv3+kOPihJrOUv23RvCUvI19iF1kDDmSkBdR9yY7OvTrT6DC29yvoBsjo/xO8uhqtAAqUSrJQnvX+IFzjDqkFmrTDup5IU1bXLuYrJCd7/YAlDx6XsRhGpGDFGTzxV3tzTXCiAWFbvLBRpr110M+z2xoag="
+cookie = "NID_AUT=7eZ7OnxUeGjCygDRKnwQGZT2hdpnH3Qk+eMy6LDRpnGAT9xEVaN5Ba4fK3XUMXZ9; NID_SES=AAABVavXcril8wD3Gdr2tt4eI7TrlNJIkJLfWwHf4zDudV/uRQ9IgdQ/MFvBOHvfhRYPEa8kSmizguNHeyqicBnn62jknwgW73MvV18cARuQhLpvBZ8aXlL9+p6GwzMIMz1UkQ7+IhZ7pPwCM7J2JPb3mZYL2xNTNzxvfqZtZWI8q0EcAt4vrTejdPAtRrghHzRunzvrWLODvxSj/VzK3Y5aQiH7taRRFsuJL+hbK8S6eJFdrIAJF95mg2NtM/Jkkr7TyPsn4qpcAedwiJ3gyUVUMigOw+vCRcMx3AWC9GgD3grItRoPTQ/nPeDjxA4F6KRDcUUQZAFOT7Hj6xmwZ5o9sSp7ln3WOIk7YJuroBPsrOJH8kGM22m3PKCguHMllLTiGdHL7q+SWByTFLw3YJS3ZHTBS/t5erU38btYyryI/acp/tk3alfmaVY6sCxNStdwdBhypuf8JIoxmKAnZ/sBwK8="
 
 def parsing(html):
 	exp = re.compile(r'<img.+?src="(http://imgcomic\.naver\.net/webtoon/[0-9]+/[0-9]+/(.+?\.(jpg|png|gif|JPG|PNG|GIF)))".*?')
